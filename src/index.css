@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.background {
+  background-image: url("assets/wallpaper_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tab {
+  background-image: url("assets/wallpaper_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@theme {
+  --font-pixel: "Pixelify Sans", serif;
+
+  --color-background: #fadde1;
+  --color-main: #310055;
+  --color-text-sub: #ff5d8f;
+  --color-text-light: #ff87ab;
+  --color-text-lighter: #ffa6c1;
+  --color-text-lightest: #ffc4d6;
+}
