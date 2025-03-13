@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  cursor: url("/mouse.png"), auto;
+}
+
+
 .background {
   background-image: url("assets/wallpaper_1.jpg");
   background-position: center;
@@ -16,6 +21,7 @@
 
 @theme {
   --font-pixel: "Pixelify Sans", serif;
+  --font-spaced : "Space Mono", serif;
 
   --color-background: #fadde1;
   --color-main: #310055;

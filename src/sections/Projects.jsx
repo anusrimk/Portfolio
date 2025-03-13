@@ -14,7 +14,7 @@ function Projects() {
     <section className="w-full h-full bg-text-lightest px-3 py-4 flex gap-4 overflow-hidden">
       {/* Sidebar - Project List */}
       <div className="w-[30%] h-full bg-text-lighter p-4 flex flex-col gap-3">
-        <div className="w-full h-[70%]">
+        <div className="w-full h-[80%] overflow-scroll">
           {projects.map((project, index) => (
             <div
               key={index}

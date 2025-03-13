@@ -69,6 +69,15 @@ const icons = [
 
 const projects = [
   {
+    name : "Vitals", 
+    techStack : ["ReactJS", "NodeJS", "MongoDB", "Tailwind CSS", "GSAP", "Gemini"],
+    description : "A health-risk analyser app that combines all your health data and gives you a dynamic underwriters dashboard for an insurance, and during the times of emergencies, it gives out the most suitable place for you to claim your insurance aNnd guides you for the process of it",
+    whereMade : "HackX Hackathon 2025", 
+    links : {
+      github : ""
+    }
+  },
+  {
     name: "Surge",
     techStack: ["ReactJS", "NodeJS", "MongoDB", "Tailwind CSS", "ThreeJS"],
     description:
