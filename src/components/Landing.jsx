@@ -8,10 +8,10 @@ function Landing() {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    let typingSpeed = 120; // Typing speed per character
-    let deletingSpeed = 60; // Deleting speed per character
-    let delayBeforeDeleting = 1500; // Pause after full text is displayed
-    let delayBeforeTyping = 500; // Pause after deleting
+    let typingSpeed = 120; 
+    let deletingSpeed = 60;
+    let delayBeforeDeleting = 1500; 
+    let delayBeforeTyping = 500;
 
     if (!isDeleting && index < fullText.length) {
       // Typing forward

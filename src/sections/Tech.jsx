@@ -18,9 +18,9 @@ function Tech() {
         </div>
       ))}
 
-      <div className="absolute bottom-[-160px] left-12 w-40 h-40">
+      {/* <div className="absolute bottom-[-160px] left-12 w-40 h-40">
         <img src={animatedPets[4]} alt="" />
-      </div>
+      </div> */}
     </section>
   );
 }

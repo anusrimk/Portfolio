@@ -28,7 +28,7 @@ function Projects() {
             </div>
           ))}
         </div>
-        <Pet number={0} />
+        {/* <Pet number={0} /> */}
       </div>
 
       {/* Right Panel - Project Details */}
@@ -39,18 +39,18 @@ function Projects() {
             <p className="text-main text-2xl mb-2">
               {clickedProject.description}
             </p>
-            <p className="text-text-lightest text-xl">
+            <p className="text-text-lightest text-2xl">
               {clickedProject.whereMade &&
                 `Made at: ${clickedProject.whereMade}`}
             </p>
             <div>
-              <h3 className="font-semibold">Tech Stack:</h3>
+              <h3 className="font-semibold text-xl">Tech Stack:</h3>
               {clickedProject.techStack?.length > 0 ? (
                 <div className="grid grid-cols-3 gap-2">
                   {clickedProject.techStack.map((tech, i) => (
                     <div
                       key={i}
-                      className="bg-background p-2 rounded text-center text-sm"
+                      className="bg-background p-2 rounded text-center text-lg"
                     >
                       {tech}
                     </div>
@@ -66,7 +66,7 @@ function Projects() {
                 <a
                   href={clickedProject.links.github}
                   target="_blank"
-                  className="text-blue-500 underline flex gap-1 justify-center items-center"
+                  className="text-blue-500 text-xl underline flex gap-1 justify-center items-center"
                 >
                   GitHub <SquareArrowOutUpRight size={16} />
                 </a>
@@ -75,7 +75,7 @@ function Projects() {
                 <a
                   href={clickedProject.links.github}
                   target="_blank"
-                  className="text-blue-500 underline flex gap-1 justify-center items-center"
+                  className="text-blue-500 text-xl underline flex gap-1 justify-center items-center"
                 >
                   Figma <SquareArrowOutUpRight size={16} />
                 </a>

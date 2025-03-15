@@ -8,17 +8,10 @@ import Tech from "../sections/Tech";
 function Modal() {
   const { activeApp, closeApp } = useAppContext();
 
-  if (!activeApp) return null; // Don't render anything if no app is open
+  if (!activeApp) return null;
 
   return (
     <div className="w-full h-full bg-background shadow-lg rounded-md">
-      {/* Header */}
-      {/* <div className="modal-header flex justify-between items-center bg-gray-300 p-2">
-        <h2 className="text-lg font-bold">{activeApp}</h2>
-        <button className="text-red-500 font-bold" onClick={closeApp}>
-          X
-        </button>
-      </div> */}
 
       {/* Dynamically render the active app component */}
       <div className="w-full h-full">

@@ -31,7 +31,7 @@ function Desktop() {
           className="w-full h-12 bg-[#FFE5EC] flex items-center pl-6 overflow-hidden border-b-4 border-text-light
         "
         >
-          <h5 className="font-pixel text-2xl">
+          <h5 className="font-pixel text-[1.8rem]">
             {activeApp ? activeApp : "My Portfolio"}
           </h5>
         </div>
