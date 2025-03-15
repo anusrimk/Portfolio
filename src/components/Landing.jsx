@@ -44,17 +44,17 @@ function Landing() {
 
   return (
     <section className="w-full h-full bg-background flex flex-col justify-center gap-4 items-start p-20">
-      <h1 className="font-pixel text-5xl">Hola, this is</h1>
+      <h1 className="font-medodica text-7xl">Hola, this is</h1>
 
       {/* Typewriter Effect */}
       <div className="w-full h-20 mb-8">
-        <h1 className="font-pixel text-8xl text-main">
+        <h1 className="font-pixel text-9xl text-main">
           {displayText}
           {cursorVisible && <span className="text-text-light">|</span>}
         </h1>
       </div>
 
-      <h1 className="font-pixel text-4xl mt-4 text-main">
+      <h1 className="font-medodica font-medium text-5xl mt-4 text-main">
         &quot;Pixels, Passion & Purpose – Where Design Meets Experience.&quot;
       </h1>
     </section>

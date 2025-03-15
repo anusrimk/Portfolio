@@ -22,7 +22,7 @@ function Projects() {
               className="flex items-center gap-4 p-2 shadow-md rounded-lg cursor-pointer hover:bg-text-lighter transition-all ease-in-out duration-300"
             >
               <img src={githubImg} alt="icon" className="w-12 h-12" />
-              <span className="text-lg font-medium font-pixel text-main">
+              <span className="text-xl font-semibold font-pixel text-main">
                 {project.name}
               </span>
             </div>

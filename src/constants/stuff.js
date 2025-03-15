@@ -17,6 +17,7 @@ import htmlLogo from "../assets/logos/html.svg";
 import expressLogo from "../assets/logos/express.svg";
 import mongoLogo from "../assets/logos/mongodb.svg";
 import figmaLogo from "../assets/logos/figma.svg";
+import adobeExpressLogo from "../assets/logos/adobe_express.svg"
 
 import dog1 from "../assets/dog1.gif";
 import dog2 from "../assets/dog2.gif";
@@ -25,17 +26,18 @@ import cloud from "../assets/cloud.gif";
 import snail from "../assets/snail.gif";
 
 const techIcons = [
+  figmaLogo,
+  adobeExpressLogo,
   reactLogo,
-  firebaseLogo,
-  graphLogo,
   javascriptLogo,
-  nodeLogo,
-  pythonLogo,
-  cssLogo,
   htmlLogo,
+  cssLogo,
+  firebaseLogo,
+  nodeLogo,
   expressLogo,
   mongoLogo,
-  figmaLogo,
+  pythonLogo,
+  graphLogo,
   githubLogo,
 ];
 
@@ -63,7 +65,7 @@ const icons = [
   {
     id: 5,
     icon: contactImg,
-    name: "Contact Me",
+    name: "Contact",
   },
 ];
 

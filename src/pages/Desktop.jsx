@@ -21,7 +21,7 @@ function Desktop() {
               alt={icon.name}
               className="active:ring-2 active:ring-white active:ring-offset-2 active:ring-offset-text-lighter"
             />
-            <h4 className="font-pixel">{icon.name}</h4>
+            <h4 className="font-pixel text-[1.5rem] text-[oklch(0.359 0.144 278.697)]">{icon.name}</h4>
           </div>
         ))}
       </div>

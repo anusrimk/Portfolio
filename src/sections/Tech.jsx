@@ -7,18 +7,18 @@ function Tech() {
       {techIcons.map((icon, index) => (
         <div
           key={index}
-          className="relative w-32 h-32 flex justify-center items-center active:ring-4 active:ring-text-lightest"
+          className="relative w-28 h-28 flex justify-center items-center active:ring-4 active:ring-text-lightest"
         >
-          <img src={fileImg} className="w-28 h-28 opacity-50" />
+          <img src={fileImg} className="w-[6.5rem] h-[6.5rem] opacity-50" />
           <img
             src={icon}
             alt={`Tech icon ${index + 1}`}
-            className="absolute top-10 left-[18px] w-16 h-16 object-contain"
+            className="absolute top-9 left-[16px] w-14 h-14 object-contain"
           />
         </div>
       ))}
 
-      <div className="absolute bottom-[-160px] left-12 w-36 h-36">
+      <div className="absolute bottom-[-160px] left-12 w-40 h-40">
         <img src={animatedPets[4]} alt="" />
       </div>
     </section>
