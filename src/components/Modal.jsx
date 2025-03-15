@@ -25,7 +25,7 @@ function Modal() {
         {activeApp === "About" && <About />}
         {activeApp === "Me" && <Landing />}
         {activeApp === "Projects" && <Projects />}
-        {activeApp === "Contact Me" && <Contact />}
+        {activeApp === "Contact" && <Contact />}
         {activeApp === "Tech" && <Tech />}
         {/* {activeApp === "App2" && <App2 />} */}
         {/* Add more app components as needed */}

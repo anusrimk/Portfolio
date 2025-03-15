@@ -52,7 +52,7 @@ function Contact() {
         <div className="w-full h-1/4 flex gap-10 justify-start">
           {/* Name Input */}
           <div className="w-[360px] h-[120px] flex flex-col items-start justify-center gap-2">
-            <label htmlFor="name" className="text-xl font-pixel">
+            <label htmlFor="name" className="text-2xl font-pixel">
               Name:
             </label>
             <input
@@ -66,7 +66,7 @@ function Contact() {
 
           {/* Email Input */}
           <div className="w-[360px] h-[120px] flex flex-col items-start justify-center gap-2">
-            <label htmlFor="email" className="text-xl font-pixel">
+            <label htmlFor="email" className="text-2xl font-pixel">
               Email:
             </label>
             <input
@@ -82,7 +82,7 @@ function Contact() {
         {/* Message Input */}
         <div className="w-full h-1/4 flex flex-col gap-10 justify-start mt-6">
           <div className="w-[95.6%] h-[200px] flex flex-col items-start justify-center gap-2">
-            <label htmlFor="message" className="text-xl font-pixel">
+            <label htmlFor="message" className="text-2xl font-pixel">
               Leave me a message:
             </label>
             <textarea
@@ -98,7 +98,7 @@ function Contact() {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-24 h-12 bg-text-light p-4 flex justify-center items-center font-pixel text-lg rounded-sm cursor-pointer hover:bg-text-sub duration-300 transition-all ease-in-out hover:text-background"
+            className="w-24 h-12 bg-text-light p-4 flex justify-center items-center font-pixel text-2xl rounded-sm cursor-pointer hover:bg-text-sub duration-300 transition-all ease-in-out hover:text-background"
           >
             Send
           </button>

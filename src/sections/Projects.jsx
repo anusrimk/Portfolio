@@ -83,7 +83,7 @@ function Projects() {
             </div>
           </>
         ) : (
-          <p className="text-main font-pixel text-lg">
+          <p className="text-main font-pixel text-3xl">
             Select a project to view details
           </p>
         )}
